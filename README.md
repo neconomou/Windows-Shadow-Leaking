@@ -17,7 +17,7 @@ For compiling the NT leaker:
 
 PML4 table address leaker output example:
 
-"""
+```
 C:\Users\Public>pml4leak-melt.exe
 
 [+] Leaking PML4...
@@ -26,11 +26,11 @@ C:\Users\Public>pml4leak-melt.exe
 [+] PML4: fffff178bc5e2000 (entry 1e2)
 
 C:\Users\Public>
-"""
+```
 
 NT base address leaker output example in targets with RAM memory equal or higher than 4GB:
 
-"""
+```
 C:\Users\Public>ntleak-melt.exe
 [+] Win10 build number: 19041
 [+] RAM detected: 4GB
@@ -55,4 +55,4 @@ C:\Users\Public>ntleak-melt.exe
 [+] NT base address: 0xfffff80013c00000 (entry 0xa3)
 
 C:\Users\Public>
-"""
+```
